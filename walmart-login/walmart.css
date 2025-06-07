@@ -1,0 +1,97 @@
+
+ body {
+   font-family: Arial, sans-serif;
+  background-color: #2751fc;
+  margin: 0;
+  padding: 0;
+ }
+
+ .wrapper {
+  display: flex;
+  min-height: 80vh;
+}
+
+.left-image {
+  flex: 1;
+  background-color:  #2751fc;
+}
+
+.left-image img {
+  width: 80%;
+  height: 100vh;
+}
+
+
+.img-walmart {
+   width: 80px;
+   margin-bottom: 10px;
+}
+
+
+.login-container{
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: rgb(245, 246, 252);
+  border-radius: 12px;
+   opacity: 0.9;
+}
+  
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+#account {
+    font-size: 15px;
+    background-color:   #98c1e8;
+    color: rgb(19, 18, 18);
+    padding: 19px;
+    border-radius: 10px;
+}
+
+.input-div {
+  margin-bottom: 15px;
+}
+
+.input-div label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-box {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ .myCheckbox {
+   margin-bottom: 15px;
+   font-size: 15px;
+   font-style: italic;
+ }
+
+ .term-matter {
+    color: black;
+ }
+
+ .term {
+    font-size: 12px;
+    color: #555;
+    margin-bottom:  15px;
+    margin-top: 5px;
+ }
+
+button {
+    width: 100%;
+     background-color: #70b7fa;
+     padding:15px ;
+     color: white;
+     border-radius: 9px;
+     font-size: 25px;
+     cursor: pointer;
+}
+button:hover {
+  background-color: #005bb5;
+}
